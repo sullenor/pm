@@ -7,8 +7,8 @@ const collection = range(500);
 
 new Suite()
   .on('cycle', event => console.log(String(event.target)))
-  .add('es5', () => collection.map(identity))
-  .add('_', () => map(collection, identity))
+  .add('[].forEach', () => collection.map(identity))
+  .add('_.forEach', () => map(collection, identity))
   .add('improved native for-loop', () => nativeForLoop(collection, identity))
   .run();
 

@@ -1,6 +1,6 @@
 # arguments
 
 ```
-spread operator x 24,762,240 ops/sec ±2.36% (86 runs sampled)
-improved native for-loop x 17,844,706 ops/sec ±1.03% (87 runs sampled)
+native spread operator x 27,621,169 ops/sec ±0.94% (89 runs sampled)
+improved native for-loop x 18,379,593 ops/sec ±3.12% (82 runs sampled)
 ```

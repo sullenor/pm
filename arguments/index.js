@@ -4,7 +4,7 @@ const { Suite } = require('benchmark');
 
 new Suite()
   .on('cycle', event => console.log(String(event.target)))
-  .add('spread operator', () => nativeSpread(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+  .add('native spread operator', () => nativeSpread(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
   .add('improved native for-loop', () => nativeForLoop(0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
   .run();
 
