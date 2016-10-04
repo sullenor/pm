@@ -1,8 +1,13 @@
 # map
 
 ```bash
-[].forEach x 3,953 ops/sec ±1.65% (87 runs sampled)
-_.forEach x 123,471 ops/sec ±2.19% (85 runs sampled)
-for-in-loop x 7,508 ops/sec ±1.63% (88 runs sampled)
-improved native for-loop x 816,517 ops/sec ±2.38% (87 runs sampled)
+[].map x 10,928 ops/sec ±0.75% (92 runs sampled)
+_.map x 354,242 ops/sec ±0.92% (91 runs sampled)
+for-loop x 2,320,602 ops/sec ±1.22% (90 runs sampled)
+while-loop x 2,018,854 ops/sec ±0.74% (90 runs sampled)
+```
+
+```bash
+$ node -v
+v6.6.0
 ```
