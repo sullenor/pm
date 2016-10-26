@@ -1,7 +1,12 @@
 # Object.keys
 
 ```bash
-Object.keys x 324,362 ops/sec ±1.00% (88 runs sampled)
-_.keys x 278,052 ops/sec ±1.29% (89 runs sampled)
-for-loop x 150,790 ops/sec ±0.98% (88 runs sampled)
+Object.keys x 312,599 ops/sec ±0.84% (87 runs sampled)
+_.keys x 265,486 ops/sec ±1.04% (88 runs sampled)
+for-loop x 283,226 ops/sec ±1.02% (88 runs sampled)
+```
+
+```bash
+$ node -v
+v6.9.1
 ```

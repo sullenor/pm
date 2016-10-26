@@ -1,13 +1,13 @@
 # map
 
 ```bash
-[].map x 10,928 ops/sec ±0.75% (92 runs sampled)
-_.map x 354,242 ops/sec ±0.92% (91 runs sampled)
-for-loop x 2,320,602 ops/sec ±1.22% (90 runs sampled)
-while-loop x 2,018,854 ops/sec ±0.74% (90 runs sampled)
+[].map x 10,457 ops/sec ±0.81% (92 runs sampled)
+_.map x 333,400 ops/sec ±0.61% (91 runs sampled)
+for-loop x 2,063,979 ops/sec ±0.87% (89 runs sampled)
+while-loop x 1,770,135 ops/sec ±0.66% (89 runs sampled)
 ```
 
 ```bash
 $ node -v
-v6.6.0
+v6.9.1
 ```
